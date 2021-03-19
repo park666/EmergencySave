@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ADC698</color>
+    <color name="colorPrimaryDark">#ADC698</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="option_btn_color">#D69489</color>
+    <color name="option_name_color">#000000</color>
+    <color name="save_btn_color">#EDD1CC</color>
+    <color name="black">#000000</color>
+    <color name="gender_spinner_background">#D0E3C4</color>
+    <color name="deep_blue">#D69489</color>
+</resources>

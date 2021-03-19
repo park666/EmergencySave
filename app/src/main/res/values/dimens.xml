@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ambulance_imageview_length">100dp</dimen>
+    <dimen name="option_textview_width">180dp</dimen>
+    <dimen name="item_text_size">25dp</dimen>
+    <dimen name="send_btn_width">60dp</dimen>
+    <dimen name="padding_item">8dp</dimen>
+    <dimen name="prompt_text">16dp</dimen>
+    <dimen name="contact_textview_dimen">25dp</dimen>
+    <dimen name="infomation_item_textview_dimen">20dp</dimen>
+    <dimen name="gender_spinner_to_textview_distance">180dp</dimen>
+    <dimen name="gender_spinner_margin_left">40dp</dimen>
+    <dimen name="edittext_short_len"> 200dp</dimen>
+    <dimen name="title_text_size">16dp</dimen>
+</resources>

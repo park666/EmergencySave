@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/option_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/option_imageview"
+        android:layout_width="94dp"
+        android:layout_height="104dp"
+        android:src="@drawable/ambulance"
+        android:paddingLeft="@dimen/padding_item"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/option_textview_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_item">
+
+        <TextView
+            android:id="@+id/option_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_name_text"
+            android:textColor="@color/option_name_color"
+            android:textSize="@dimen/item_text_size" />
+
+        <TextView
+            android:id="@+id/option_description_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_description_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sms_sent_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sms_sent_icon"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/option_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="@dimen/send_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#d5f2fa"
+        android:text="@string/send_button_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/edit_text_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit_imageview"
+            android:visibility="visible"
+            android:onClick="editIconClick"/>
+
+        <ImageView
+            android:id="@+id/delte_option_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:visibility="gone"
+            android:onClick="deleteIconClick"/>
+    </LinearLayout>
+</LinearLayout>

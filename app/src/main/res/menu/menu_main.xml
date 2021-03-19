@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.emergentsaver.qingwenxiao.view.viewActivity.MainActivity">
+
+    <item
+        android:id="@+id/menu_recorder"
+        android:icon="@drawable/record_menu_toolbar"
+        android:orderInCategory="1"
+        android:title="Record Voice"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_country"
+        android:icon="@drawable/autralian_flag"
+        android:orderInCategory="2"
+        android:title=""
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_call_police"
+        android:icon="@drawable/call_menu_icon"
+        android:orderInCategory="0"
+        android:title=""
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

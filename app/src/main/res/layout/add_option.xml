@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/add_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_option"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding_item"
+        android:layout_marginLeft="@dimen/padding_item"/>
+
+    <TextView
+        android:id="@+id/add_option_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_option_name"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_marginTop="@dimen/padding_item"/>
+
+    <EditText
+        android:id="@+id/add_option_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/add_option_description_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_option_description"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_marginTop="@dimen/padding_item"/>
+
+    <EditText
+        android:id="@+id/add_option_description_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_to_relay_centre_text"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_marginTop="@dimen/padding_item"/>
+
+    <EditText
+        android:id="@+id/add_more_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/alert_light_frame"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/choose_option_Type"
+            android:textSize="@dimen/prompt_text"
+            android:layout_marginTop="@dimen/padding_item"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginRight="@dimen/padding_item"/>
+
+    <Spinner
+        android:id="@+id/option_type_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_item"
+        android:background="@color/gender_spinner_background"
+        android:entries="@array/option_type_array"
+        android:layout_marginLeft="@dimen/infomation_item_textview_dimen"></Spinner>
+
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_item"
+            android:background="@color/save_btn_color"
+            android:text="@string/add_option_btn"
+            android:textStyle="bold" />
+
+
+</LinearLayout>

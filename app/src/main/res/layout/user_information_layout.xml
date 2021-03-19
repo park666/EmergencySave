@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/info_first_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/first_name_textview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_last_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/last_name_textview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_phone_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/contact_phone_number_textview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_birthdate_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/information_birthday_textview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_gender_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/gender_prompt_textview"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_medical_history_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/medical_history_prompt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+        <TextView
+            android:id="@+id/info_drug_allergy_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_item"
+            android:layout_marginTop="@dimen/padding_item"
+            android:text="@string/drug_allergy_prompt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prompt_text" />
+
+    <Button
+        android:id="@+id/edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/save_btn_color"
+        android:text="@string/edit_button"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding_item"/>
+
+
+</LinearLayout>
+

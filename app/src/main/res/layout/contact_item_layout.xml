@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/option_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/padding_item">
+
+    <TextView
+        android:id="@+id/relationship_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Partner"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/contact_textview_dimen"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_marginRight="@dimen/padding_item"
+        android:layout_marginTop="@dimen/padding_item"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tom Smith"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/contact_phone_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0431947590" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
